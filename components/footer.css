@@ -1,0 +1,111 @@
+.footer-footer {
+  height: 340px;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 18px;
+  background-color: #000a1e;
+}
+.footer-max-width {
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-bottom-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: var(--dl-space-space-sixunits);
+  justify-content: flex-start;
+}
+.footer-left-side {
+  top: 64px;
+  flex: 0 0 auto;
+  left: 17px;
+  width: 50%;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.footer-text1 {
+  color: var(--dl-color-scheme-white);
+  font-size: 25px;
+  max-width: 350px;
+  font-style: normal;
+  font-family: "IBM Plex Sans Condensed";
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+.footer-text3 {
+  text-transform: none;
+}
+.footer-social-media {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.footer-container {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.footer-icon10 {
+  fill: var(--dl-color-scheme-white);
+  width: 24px;
+  height: 24px;
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-twounits);
+}
+.footer-icon10:hover {
+  fill: var(--dl-color-scheme-pink);
+  cursor: pointer;
+}
+.footer-icon14 {
+  fill: var(--dl-color-scheme-white);
+  width: 24px;
+  height: 24px;
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-twounits);
+}
+.footer-icon14:hover {
+  fill: var(--dl-color-scheme-pink);
+  cursor: pointer;
+}
+.footer-icon18 {
+  fill: var(--dl-color-scheme-white);
+  width: 24px;
+  height: 24px;
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-twounits);
+}
+.footer-icon18:hover {
+  fill: var(--dl-color-scheme-pink);
+  cursor: pointer;
+}
+.footer-link {
+  display: contents;
+}
+.footer-icon20 {
+  fill: var(--dl-color-scheme-darkblue);
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-image {
+  top: -9px;
+  left: 27px;
+  width: 83px;
+  height: 72px;
+  position: absolute;
+  object-fit: cover;
+}
+
+@media(max-width: 991px) {
+  .footer-bottom-container {
+    flex-direction: column-reverse;
+  }
+  .footer-left-side {
+    width: 100%;
+  }
+}
